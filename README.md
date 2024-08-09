@@ -39,7 +39,7 @@ Uma **venda** pode *conter vários produtos* e um **produto** pode ser *vinculad
   <li>O sistema deve ser capaz de listar as <ins>10 vendas com totais mais altos</ins>.</li>
 </ul>
 
-<h3>ORIENTAÇÕES</h3>
+<h3>Orientações</h3>
 Não se preocupem com validações de vendas negativas, idade inválida ou coisas parecidas. 
 Na semana que vem, teremos aulas focadas em validações e regras de negócio e iremos 
 refatorar este projeto incluindo estas técnicas.
@@ -49,7 +49,7 @@ lançado na venda</ins>.
 </br></br>
 Na semana que vem explicarei algumas regras de negócio necessárias para 
 trabalhar com lançamento de quantidades e controle de estoque. 
-<h3>ANTES DE ENVIAR</h3>
+<h3>Antes de Enviar</h3>
 Testem via Postman cada endpoint de cada controller para verificar se todas as 
 requisições HTTP estão funcionando. Verifiquem se todos os responses estão sendo 
 retornados como esperado;
