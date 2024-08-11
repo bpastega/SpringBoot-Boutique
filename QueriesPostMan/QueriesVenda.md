@@ -50,6 +50,42 @@
 }
 ```
 
+``` json
+    {
+    "cliente": {
+        "nome": "Novo Cliente",
+        "email": "novo_cliente@example.com",
+        "idade": 30,
+        "endereco": {
+            "cep": "12345678",
+            "numero": "100",
+            "logradouro": "Rua Exemplo",
+            "estado": "Estado Exemplo",
+            "pais": "País Exemplo"
+        }
+    },
+    "funcionario": {
+        "nome": "Novo Funcionario",
+        "email": "novo_funcionario@example.com",
+        "funcao": "Vendedor"
+    },
+    "produto": [
+        {
+            "nome": "Produto 1",
+            "descricao": "Descrição do Produto 1",
+            "preco": 100.0
+        },
+        {
+            "nome": "Produto 2",
+            "descricao": "Descrição do Produto 2",
+            "preco": 150.0
+        }
+    ]
+}
+
+
+```
+
   <li><strong>MÉTODO DELETE</strong> — http://localhost:8080/api/venda/delete/5
   </li>
   
