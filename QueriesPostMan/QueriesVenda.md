@@ -21,34 +21,6 @@
       }
 }
 ```
-  <li><strong>MÉTODO GET</strong> — http://localhost:8080/api/venda/findAll
-  </li>
-  
-  ```OK!```
-  <li><strong>MÉTODO GET</strong> — http://localhost:8080/api/venda/findById/5
-  </li>
-  
-  ```OK!```
-  <li><strong>MÉTODO PUT</strong> — 
-  </li>
-  </br>
-  
-``` json
-{
-      "cliente":{
-        "nome":"Mudou",
-        "email":"mudou@compra.com",
-        "idade":44
-      },
-      "funcionario":{
-        "nome":"Ciclano",
-        "email":"cicla@gmail.com",
-        "telefone":"434343432",
-        "idade":99,
-        "funcao":"bagunça"
-      }
-}
-```
 
 ``` json
     {
@@ -85,6 +57,37 @@
 
 
 ```
+
+  <li><strong>MÉTODO GET</strong> — http://localhost:8080/api/venda/findAll
+  </li>
+  
+  ```OK!```
+  <li><strong>MÉTODO GET</strong> — http://localhost:8080/api/venda/findById/5
+  </li>
+  
+  ```OK!```
+  <li><strong>MÉTODO PUT</strong> — 
+  </li>
+  </br>
+  
+``` json
+{
+      "cliente":{
+        "nome":"Mudou",
+        "email":"mudou@compra.com",
+        "idade":44
+      },
+      "funcionario":{
+        "nome":"Ciclano",
+        "email":"cicla@gmail.com",
+        "telefone":"434343432",
+        "idade":99,
+        "funcao":"bagunça"
+      }
+}
+```
+
+
 
   <li><strong>MÉTODO DELETE</strong> — http://localhost:8080/api/venda/delete/5
   </li>
