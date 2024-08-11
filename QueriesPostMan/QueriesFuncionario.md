@@ -1,4 +1,4 @@
-# Queries XYZ
+# Queries Funcionário
 
 <ul>
   <li> <strong>MÉTODO POST</strong> — http://localhost:8080/api/funcionario/save
